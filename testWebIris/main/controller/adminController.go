@@ -50,7 +50,7 @@ func (ac *AdminController) PostLogin(context iris.Context) mvc.Result {
 			Object: map[string]interface{}{
 				"status":  "0",
 				"success": "登录失败",
-				"message": "⽤户名或密码为空,请重新填写后尝试登录 ",
+				"message": "⽤户名或密码为空,请重新填写后尝试登录",
 			},
 		}
 	}
